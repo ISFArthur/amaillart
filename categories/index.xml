@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Arthur MAILLART</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://isfarthur.github.io/amaillart/categories/</link>
+      <atom:link href="https://isfarthur.github.io/amaillart/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jan 2020 21:13:14 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://isfarthur.github.io/amaillart/categories/</link>
     </image>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://isfarthur.github.io/amaillart/categories/r/</link>
       <pubDate>Sat, 18 Jan 2020 21:13:14 -0500</pubDate>
-      <guid>/categories/r/</guid>
+      <guid>https://isfarthur.github.io/amaillart/categories/r/</guid>
       <description></description>
     </item>
     
