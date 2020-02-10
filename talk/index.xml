@@ -5,7 +5,7 @@
     <link>https://isfarthur.github.io/amaillart/talk/</link>
       <atom:link href="https://isfarthur.github.io/amaillart/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2019 09:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://isfarthur.github.io/amaillart/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://isfarthur.github.io/amaillart/talk/example/</guid>
+      <title>Modèle de fréquence basé sur des données telematics.</title>
+      <link>https://isfarthur.github.io/amaillart/talk/100_pct_ds_2019/</link>
+      <pubDate>Fri, 29 Nov 2019 09:00:00 +0000</pubDate>
+      <guid>https://isfarthur.github.io/amaillart/talk/100_pct_ds_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward an explainable Machine Learning model for claim frequency.</title>
+      <link>https://isfarthur.github.io/amaillart/talk/ime_2019/</link>
+      <pubDate>Wed, 10 Jul 2019 09:00:00 +0000</pubDate>
+      <guid>https://isfarthur.github.io/amaillart/talk/ime_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Le deep learning au service de l&#39;assureur non-vie</title>
+      <link>https://isfarthur.github.io/amaillart/talk/100_pct_ds_2017/</link>
+      <pubDate>Thu, 16 Nov 2017 09:00:00 +0000</pubDate>
+      <guid>https://isfarthur.github.io/amaillart/talk/100_pct_ds_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Le deep learning au service de l&#39;assureur non-vie</title>
+      <link>https://isfarthur.github.io/amaillart/talk/example-copie/</link>
+      <pubDate>Thu, 16 Nov 2017 09:00:00 +0000</pubDate>
+      <guid>https://isfarthur.github.io/amaillart/talk/example-copie/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.

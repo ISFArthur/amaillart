@@ -28,12 +28,10 @@
   
     
   
-  <meta name="description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.">
+  <meta name="description" content="Vers un modèle de tarification ML interprétable.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/">
+  <link rel="alternate" hreflang="en-us" href="/amaillart/talk/100_pct_ds_2017_/">
 
   
 
@@ -45,6 +43,9 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
 
   
+  
+  
+  <script src="/amaillart/js/mathjax-config.js"></script>
   
 
   
@@ -176,9 +177,9 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -217,7 +218,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   <link rel="icon" type="image/png" href="/amaillart/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/amaillart/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/">
+  <link rel="canonical" href="/amaillart/talk/100_pct_ds_2017_/">
 
   
   
@@ -225,38 +226,28 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Arthur MAILLART">
-  <meta property="og:url" content="https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/">
-  <meta property="og:title" content="Mon premier post | Arthur MAILLART">
-  <meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
-  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/amaillart/talk/100_pct_ds_2017_/">
+  <meta property="og:title" content="Modèle de fréquence basé sur des données telematics. | Arthur MAILLART">
+  <meta property="og:description" content="Vers un modèle de tarification ML interprétable."><meta property="og:image" content="/amaillart/talk/100_pct_ds_2017_/featured.jpg">
+  <meta property="twitter:image" content="/amaillart/talk/100_pct_ds_2017_/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-01-18T21:13:14-05:00">
+      <meta property="article:published_time" content="2019-11-17T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-01-18T21:13:14-05:00">
+    <meta property="article:modified_time" content="2019-11-29T09:00:00&#43;00:00">
   
 
   
 
 
+
+  
     
-
-
-
-
-
-
-  
-
-
 
 
 
@@ -264,37 +255,48 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/"
+    "@id": "/amaillart/talk/100_pct_ds_2017_/"
   },
-  "headline": "Mon premier post",
+  "name": "Modèle de fréquence basé sur des données telematics.",
   
-  "datePublished": "2020-01-18T21:13:14-05:00",
-  "dateModified": "2020-01-18T21:13:14-05:00",
+  "location": {
+    "@type": "Place",
+    "name": "[Paris Marriott Rive Gauche Hotel \u0026 Conference Center](https://modules.marriott.com/fr-hotel-meetings/parst-paris-marriott-rive-gauche-hotel-and-conference-center/modules/meetings/meetings-and-events-overview)",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "17 Boulevard Saint Jacques",
+      "addressLocality": "Paris",
+      "postalCode": "75014",
+      "addressRegion": "",
+      "addressCountry": "France"
+    }
+    
+  },
   
-  "author": {
+  
+  "image": [
+    "/amaillart/talk/100_pct_ds_2017_/featured.jpg"
+  ],
+  
+  "startDate": "2019-11-29T09:00:00Z",
+  
+  "endDate": "2019-11-29T18:00:00Z",
+  
+  
+  "performer": {
     "@type": "Person",
     "name": "Arthur Maillart"
   },
   
-  "publisher": {
-    "@type": "Organization",
-    "name": "Arthur MAILLART",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "img/https://isfarthur.github.io/amaillart/"
-    }
-  },
-  "description": "R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nYou can embed an R code chunk like this:\nsummary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42."
+  "description": "Vers un modèle de tarification ML interprétable."
 }
 </script>
 
   
 
-  
-
 
   
 
@@ -305,7 +307,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
 
 
-  <title>Mon premier post | Arthur MAILLART</title>
+  <title>Modèle de fréquence basé sur des données telematics. | Arthur MAILLART</title>
 
 </head>
 
@@ -524,7 +526,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 </nav>
 
 
-  <article class="article">
+  <div class="pub">
 
   
 
@@ -539,42 +541,48 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>Mon premier post</h1>
+  <h1>Modèle de fréquence basé sur des données telematics.</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
 
   
   
-
   
-  <span class="article-date">
+  
+  <div>
     
-    
-      
-    
-    Jan 18, 2020
-  </span>
+
+
+
+  
+  <span><a href="/amaillart/authors/admin/">Arthur Maillart</a></span>
+
+  </div>
+  
   
 
   
 
   
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
+
   
 
   
@@ -582,16 +590,36 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/amaillart/categories/r/">R</a></span>
   
 
 </div>
 
-    
+  
 
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -606,60 +634,95 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
 
   
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.institutdesactuaires.com/global/gene/link.php?doc_id=15801&amp;fg=1" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 300px; max-height: 192px;">
+  <div style="position: relative">
+    <img src="/amaillart/talk/100_pct_ds_2017_/featured.jpg" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">In insurance, many attempts have been made to integrate Machine Learning (ML) models into the underwriting process. But the good performance of these methods often comes at the price of intelligibility. Here we present a method that allows us to build a surrogate model for a tree-based Black-Box model. The surrogate helps to explain the black box model globally. This methodology can be applied on Additive Tree Models (ATM) like a Random Forest or XGBoost. Those methods often have very good results on Kaggle challenges dedicated to tabular data. Our objective from an actuarial point of view is to create a claim frequency model with a Poisson Random Forest, then to explain it with a set of K rules that represents as much as possible what the model has learned. The interpretable ML approach to this topic is original, to our knowledge, no article has been published on this subject. The dataset we will use is also quite original. It was collected during an experiment on a Pay As You Drive (PAYD) insurance product.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Nov 29, 2019 9:00 AM &mdash; 6:00 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.institutdesactuaires.com/article/100-data-science-1104" target="_blank" rel="noopener">
+            100% Data Science
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9"><a href="https://modules.marriott.com/fr-hotel-meetings/parst-paris-marriott-rive-gauche-hotel-and-conference-center/modules/meetings/meetings-and-events-overview">Paris Marriott Rive Gauche Hotel &amp; Conference Center</a></div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9">17 Boulevard Saint Jacques, Paris, 75014</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
     <div class="article-style">
       
-<script src="/amaillart/rmarkdown-libs/jquery/jquery.min.js"></script>
-<script src="/amaillart/rmarkdown-libs/elevate-section-attrs/elevate-section-attrs.js"></script>
-
-
-<div id="r-markdown" class="section level1">
-<h1>R Markdown</h1>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932</code></pre>
-</div>
-<div id="including-plots" class="section level1">
-<h1>Including Plots</h1>
-<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<pre class="r"><code>par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)</code></pre>
-<div class="figure"><span id="fig:pie"></span>
-<img src="/amaillart/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
-<p class="caption">
-Figure 1: A fancy pie chart.
-</p>
-</div>
-<pre class="r"><code>1 + 5 + 3
-## [1] 9</code></pre>
-</div>
-
     </div>
 
     
@@ -667,16 +730,6 @@ Figure 1: A fancy pie chart.
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/amaillart/tags/r-markdown/">R Markdown</a>
-  
-  <a class="badge badge-light" href="/amaillart/tags/plot/">plot</a>
-  
-  <a class="badge badge-light" href="/amaillart/tags/regression/">regression</a>
-  
-</div>
 
 
 
@@ -691,7 +744,7 @@ Figure 1: A fancy pie chart.
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/&amp;text=Mon%20premier%20post" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/amaillart/talk/100_pct_ds_2017_/&amp;text=Mod%c3%a8le%20de%20fr%c3%a9quence%20bas%c3%a9%20sur%20des%20donn%c3%a9es%20telematics." target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -704,7 +757,7 @@ Figure 1: A fancy pie chart.
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/&amp;t=Mon%20premier%20post" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/amaillart/talk/100_pct_ds_2017_/&amp;t=Mod%c3%a8le%20de%20fr%c3%a9quence%20bas%c3%a9%20sur%20des%20donn%c3%a9es%20telematics." target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -717,7 +770,7 @@ Figure 1: A fancy pie chart.
       
       
       <li>
-        <a href="mailto:?subject=Mon%20premier%20post&amp;body=https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Mod%c3%a8le%20de%20fr%c3%a9quence%20bas%c3%a9%20sur%20des%20donn%c3%a9es%20telematics.&amp;body=/amaillart/talk/100_pct_ds_2017_/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -730,7 +783,7 @@ Figure 1: A fancy pie chart.
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/&amp;title=Mon%20premier%20post" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/amaillart/talk/100_pct_ds_2017_/&amp;title=Mod%c3%a8le%20de%20fr%c3%a9quence%20bas%c3%a9%20sur%20des%20donn%c3%a9es%20telematics." target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -743,7 +796,7 @@ Figure 1: A fancy pie chart.
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Mon%20premier%20post%20https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Mod%c3%a8le%20de%20fr%c3%a9quence%20bas%c3%a9%20sur%20des%20donn%c3%a9es%20telematics.%20/amaillart/talk/100_pct_ds_2017_/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -756,7 +809,7 @@ Figure 1: A fancy pie chart.
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://isfarthur.github.io/amaillart/post/2015-07-23-r-rmarkdown/&amp;title=Mon%20premier%20post" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/amaillart/talk/100_pct_ds_2017_/&amp;title=Mod%c3%a8le%20de%20fr%c3%a9quence%20bas%c3%a9%20sur%20des%20donn%c3%a9es%20telematics." target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -775,6 +828,10 @@ Figure 1: A fancy pie chart.
 
 
 
+  
+  
+    
+  
   
 
 
@@ -796,7 +853,7 @@ Figure 1: A fancy pie chart.
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://isfarthur.github.io/amaillart/">Arthur Maillart</a></h5>
+      <h5 class="card-title"><a href="/amaillart/">Arthur Maillart</a></h5>
       <h6 class="card-subtitle">PhD Student, Machine Learning Model Interpretability</h6>
       <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
       <ul class="network-icon" aria-hidden="true">
@@ -869,7 +926,7 @@ Figure 1: A fancy pie chart.
 
 
   </div>
-</article>
+</div>
 
       
 
@@ -978,6 +1035,16 @@ Figure 1: A fancy pie chart.
   
   <div class="container">
     <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/amaillart/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/amaillart/terms/">Terms</a>
+    
+  </p>
   
 
   <p class="powered-by">
