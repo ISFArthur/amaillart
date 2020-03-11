@@ -2,29 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Arthur MAILLART</title>
-    <link>https://isfarthur.github.io/amaillart/publication_types/2/</link>
-      <atom:link href="https://isfarthur.github.io/amaillart/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>/amaillart/publication_types/2/</link>
+      <atom:link href="/amaillart/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>2</title>
-      <link>https://isfarthur.github.io/amaillart/publication_types/2/</link>
+      <link>/amaillart/publication_types/2/</link>
     </image>
     
     <item>
       <title>Toward an explainable Machine Learning model for claim frequency</title>
-      <link>https://isfarthur.github.io/amaillart/publication/article-2/</link>
+      <link>/amaillart/publication/article-2/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://isfarthur.github.io/amaillart/publication/article-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inspection of a black box via robustness analysis</title>
-      <link>https://isfarthur.github.io/amaillart/publication/article-1/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://isfarthur.github.io/amaillart/publication/article-1/</guid>
+      <guid>/amaillart/publication/article-2/</guid>
       <description></description>
     </item>
     

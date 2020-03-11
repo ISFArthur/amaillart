@@ -88,16 +88,6 @@
   </url>
   
   <url>
-    <loc>https://isfarthur.github.io/amaillart/publication_types/2/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://isfarthur.github.io/amaillart/publication_types/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://isfarthur.github.io/amaillart/publication/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -159,6 +149,10 @@
   
   <url>
     <loc>https://isfarthur.github.io/amaillart/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://isfarthur.github.io/amaillart/publication_types/</loc>
   </url>
   
 </urlset>
